@@ -1,3 +1,9 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 40px;
+    /* background-image:url(./assets/wood-background.jpg); */
+    background-repeat: no-repeat;
+}
