@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@200&display=swap" rel="stylesheet">
     <title>A Bit About Ramen</title>
 </head>
 <body>
     <header>
         <h1>A Bit About Ramen</h1>
         <h3>Source: <a href="https://en.wikipedia.org/wiki/Ramen">Wikipedia</a></h3>
+        <section class="quiz">
+            <button class="quiz-button" id="quiz-button">Quiz Me!</button>
+            <div id="quiz-results"></div>
+        </section>
     </header>
     <main>
         <section class ="origins">
@@ -27,26 +31,29 @@
         <section class="flavors">
             <h2>Traditional Flavors</h2>
                 <ol>
-                    <li><h3>Shōyu (醤油, "soy sauce")</h3>
+                    <li>
+                    <img src="assets/shoyu-ramen.jpeg">
+                    <h2>Shōyu (醤油, "soy sauce")</h2>
                     <p>
                     This type has a clear brown broth, based on a chicken and vegetable (or sometimes fish or beef) stock with plenty of soy sauce.
                     Shōyu ramen usually has curly noodles rather than straight ones, but this is not always the case.
                     </p></li>
-                    <li><h3>Shio (塩,"salt")</h3>
+                    <li>
+                    <img src="assets/shio-ramen.jpeg">
+                    <h2>Shio (塩,"salt")</h2>
                     <p>This is the oldest type, and has a pale, clear, yellowish broth made with plenty of salt and any combination of chicken, vegetables, fish, and seaweed. 
                     Occasionally pork bones are also used, but they are not boiled as long as they are for tonkotsu ramen, so the soup remains light and clear.
                     </p></li>
-                    <li><h3>Miso (味噌</h3>
+                    <li>
+                    <img src="assets/miso-ramen.jpeg">
+                    <h2>Miso (味噌)</h2>
                     <p>
                     Miso is a relative newcomer, having reached national prominence around 1965. 
                     This uniquely Japanese ramen, which was developed in Sapporo Hokkaido, features a broth that combines miso with oily chicken or fish broth – and sometimes with tonkotsu or lard – to create a thick, nutty, slightly sweet and very hearty soup.  
                     </p></li>
                 </ol>
         </section>
-        <section class="quiz">
-            <button class="quiz-button" id="quiz-button">Quiz Me!</button>
-            <div id="quiz-results"></div>
-        </section>
+
     </main>
 
     <script type="module" src="./app.js"></script>
